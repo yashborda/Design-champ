@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/**Comman Class**/
+ul{
+     list-style: none;
+}
+
+.font-1 {
+  font-family: "Poppins";
+}
+
+.font-2 {
+  font-family: "Roboto";
+}
+
+.text-web {
+  font-size: 24px;
+}
+
+.perfect {
+  font-size: 72px;
+  line-height: 82px;
+}
+
+.perfect-2 {
+  font-size: 56px;
+}
+
+.perfect-3{
+     font-size: 32px;
+}
+
+.subscribe {
+  color: #49545a;
+  font-size: 28px;
+}
+
+.btn-primary {
+  background-color: #1363df;
+  padding: 20px 80px;
+  border-radius: 10px;
+  font-size: 24px;
+  max-width: 375px;
+}
+
+.done {
+     color: #1363df;
+   }
+/**Comman Class end**/
+
+.header {
+  background: url(../img/6538c015439fc36ca62f3d07_BG.webp);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.navbar {
+  margin: 32px 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #fff;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.navbar-toggler{
+     color: #000;
+}
+
+.product-design {
+  margin: 120px;
+}
+
+.products-wanted {
+  background-color: #f5f9ff;
+}
+
+.product-types {
+  min-height: 250px;
+  position: relative;
+  margin-top: -125px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(116, 133, 143, 0.2);
+}
+
+.explore {
+  padding: 60px 0;
+  background-color: #f5f9ff;
+}
+
+.explore .card {
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.explore-done{
+     margin-top: 32px;
+}
+
+.explore .card .card-img-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.explore .card .card-body{
+     padding: 16px 24px;
+}
+
+.explore .card .card-title{
+     font-size: 24px;
+     margin-bottom: 12px;
+}
+
+.explore .card .card-text{
+     font-size: 14px;
+     margin-bottom: 12px;
+}
+
+.will-get{
+     padding: 40px 0;
+}
+
+.will-get .card{
+     margin: 32px 0;
+}
+
+.will-get .card .card-img-top{
+     width: 90px;
+}
+
+.will-get .card .card-title{
+     color: #040b13;
+     padding: 24px 0 16px;
+}
+
+.will-get .card .card-text{
+     font-size: 18px;
+}
+
+.get-product{
+     padding-top: 40px;
+}
+
+.get-you{
+     color: #df4413;
+}
+
+
+.Mostpopular-ship{
+     background-color: #f5f9ff;
+}
+
+.Mostpopular-ship .card {
+     padding: 40px;
+     background-color: #000;
+     /* background: linear-gradient(rgba(255,255,255,.05),rgba(255,255,255,.05)); */
+     margin: 32px 0;
+}
+
+.Mostpopular-ship .card .perfect-3 span{
+     color: #49545a;
+}
+
+.Mostpopular-ship .card .card-header{
+     border-bottom: 1px solid #49545a;
+}
+
+.Mostpopular-ship .card .card-body{
+     padding: 12px 0;
+}
+
+.Mostpopular-ship .monthly .btn-primary{
+     max-width: 600px;
+     width: 100%;
+     margin-top: 24px;
+}
+
+.Mostpopular-ship .quarterly .btn-transparent{
+     max-width: 600px;
+     width: 100%;
+     margin-top: 24px;
+     border: 1px solid #fff;
+     background-color: transparent;
+     color: #fff;
+     padding: 20px 80px;
+     font-size: 24px;
+     border-radius: 10px;
+}
+
+.monthly{
+     border-right: 1px solid rgba(255,255,255,.2) !important;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+}
+
+.quarterly{
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     border-top-left-radius: 0;
+     border-bottom-left-radius: 0;
+}
+
+.membership{
+     background-color: #f5f9ff;
+     padding: 60px 0;
+}
+
+.whats-life{
+     font-size: 20px;
+     margin: 20px 0;
+}
+
+.accordion-item{
+     max-width: 1000px;
+     border-radius: 20px !important;
+     padding: 10px 0;
+     margin: 10px 0;
+     border: none;
+}
+
+.accordion-button{
+     font-size: 24px;
+     padding: 24px 32px;
+     border-radius: 20px !important; 
+}
+
+.accordion-header{
+     border-radius: 20px;
+}
+
+.accordion-body{
+     font-size: 18px;
+     color: #49545a;
+     border-radius: 20px;
+     padding: 24px 32px;
+}
+
+.accordion-button:focus{
+     box-shadow: none;
+     background-color: 0;
+}
+
+.accordion-button:not(.collapsed){
+     color: #000;
+     background-color: white;
+     box-shadow: none;
+}
+
+.footer{
+     background-color: #000 ;
+}
