@@ -63,6 +63,15 @@
     line-height: 43px;
 }
 
+.footer-bar{
+     flex-direction: column;
+}
+
+.footer .fotbar {
+     flex-direction: column;
+     padding: 30px;
+}
+
 .subscribe {
      font-size: 19px;
  }
