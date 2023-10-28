@@ -43,6 +43,10 @@ ul {
   font-size: 18px;
 }
 
+.perfect-color{
+  color: #49545a;
+}
+
 .get-you {
   color: #13d9df;
 }
@@ -109,10 +113,12 @@ ul {
 .navbar .navbar-toggler .top-bar {
   margin-top: 5px;
   transform: rotate(135deg);
+  background-color: #fff;
 }
 .navbar .navbar-toggler .bottom-bar {
   margin-top: -2px;
   transform: rotate(-135deg);
+  background-color: #fff;
 }
 .navbar .navbar-toggler.collapsed .top-bar {
   margin-top: -1px;
@@ -136,7 +142,7 @@ ul {
 .product-types {
   min-height: 250px;
   position: relative;
-  margin-top: -100px;
+  margin-top: -60px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 20px 60px rgba(116, 133, 143, 0.2);
@@ -173,6 +179,7 @@ ul {
 .explore .card .card-text {
   font-size: 14px;
   margin-bottom: 12px;
+  color: #49545a;
 }
 
 .will-get {
@@ -194,6 +201,7 @@ ul {
 
 .will-get .card .card-text {
   font-size: 18px;
+  color: #49545a;
 }
 
 .get-product {
@@ -270,6 +278,17 @@ ul {
   max-width: 600px;
   width: 100%;
   margin-top: 24px;
+}
+
+.Mostpopular-ship .monthly .btn-primary:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.Mostpopular-ship .quarterly .btn-transparent:hover {
+  background: white;
+  color: black;
 }
 
 .Mostpopular-ship .quarterly .btn-transparent {
@@ -349,19 +368,23 @@ ul {
   background-color: #000;
 }
 
-.footer .membership-bottom{
-     height: 1px;
-     width: 100vw;
-     background-color: rgba(255,255,255,.2);
+.footer .membership-bottom {
+  height: 1px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.sub-text-footer{
-     font-size: 14px;
-     color: #49545a;
-     padding-top: 16px;
+.footer .fotbar {
+  padding: 30px 0;
 }
 
-.fot-link{
+.sub-text-footer {
+  font-size: 14px;
+  color: #49545a;
+  padding-top: 16px;
+}
+
+.fot-link {
   text-decoration: none;
   font-size: 20px;
   color: #fff;

@@ -1,104 +1,104 @@
 @media (max-width: 991.98px) {
-     .Mostpopular-ship .card {
-          border-radius: 20px;
-      }
+  .Mostpopular-ship .card {
+    border-radius: 20px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #212bf3;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .nav-link {
+    color: #fff !important;
+    opacity: 1;
+    text-align: center;
+    padding: 14px;
+  }
+
+  .navbar-toggler-icon {
+    /* background: white; */
+    color: white !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
 }
 
-@media (max-width: 767.98px) { 
-     .navbar-collapse {
-          position: absolute;
-          top: 70px;
-          left: 0;
-          background-color: #212bf3;
-          width: 100%;
-          z-index: 2;
-     }
+@media (max-width: 767.98px) {
+  .product-design {
+    margin: 68px;
+  }
 
-     .nav-link {
-          color: #fff !important;
-          opacity: 1;
-          text-align: center;
-          padding: 14px;
-     }
+  .perfect {
+    font-size: 46px;
+    line-height: 60px;
+  }
 
-     .navbar-toggler-icon {
-          /* background: white; */
-          color:white !important;
-     }
+  .perfect-2 {
+    font-size: 44px;
+  }
 
-     .navbar-toggler:focus {
-          box-shadow: none;
-     }
+  .product-types {
+    flex-direction: column;
+    margin-top: -25px;
+  }
 
-     .product-design {
-          margin: 68px;
-      }
+  .web-design {
+    padding: 15px;
+  }
 
-     .perfect{
-          font-size: 46px;
-          line-height: 60px;
-     }
-
-     .perfect-2 {
-          font-size: 44px;
-      }
-
-     .product-types{
-          flex-direction: column;
-          margin-top: -60px;
-     }
-     
-     .web-design{
-          padding: 15px;
-     }
-
-     .remove{
-          display: none;
-     }
+  .remove {
+    display: none;
+  }
 }
 
-@media (max-width: 576.98px){
-.perfect {
+@media (max-width: 576.98px) {
+  .perfect {
     font-size: 26px;
     line-height: 43px;
-}
+  }
 
-.footer-bar{
-     flex-direction: column;
-}
+  .footer-bar {
+    flex-direction: column;
+  }
 
-.footer .fotbar {
-     flex-direction: column;
-     padding: 30px;
-}
+  .footer .fotbar {
+    flex-direction: column;
+    padding: 30px;
+  }
 
-.subscribe {
-     font-size: 19px;
- }
+  .subscribe {
+    font-size: 19px;
+  }
 
- .btn-primary {
-     padding: 10px 24px;
- }
+  .btn-primary {
+    padding: 10px 24px;
+  }
 
- .Mostpopular-ship .card {
-     padding: 24px;
-     border-radius: 20px;
- }
+  .Mostpopular-ship .card {
+    padding: 24px;
+    border-radius: 20px;
+  }
 
- .accordion-button {
-     font-size: 21px;
-     padding: 20px 24px;
- }
+  .accordion-button {
+    font-size: 21px;
+    padding: 20px 24px;
+  }
 
- .btn-primary {
-     max-width: 276px;
- }
+  .btn-primary {
+    max-width: 276px;
+  }
 
- .Mostpopular-ship .quarterly .btn-transparent {
-     padding: 20px 22px;
- }
+  .Mostpopular-ship .quarterly .btn-transparent {
+    padding: 20px 22px;
+  }
 
- .product-design {
-     margin: 68px 30px;
- }
+  .product-design {
+    margin: 68px 30px;
+  }
 }
