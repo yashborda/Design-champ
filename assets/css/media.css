@@ -1,9 +1,15 @@
+@media (max-width: 991.98px) {
+     .Mostpopular-ship .card {
+          border-radius: 20px;
+      }
+}
+
 @media (max-width: 767.98px) { 
      .navbar-collapse {
           position: absolute;
           top: 70px;
           left: 0;
-          background-color: #000;
+          background-color: #212bf3;
           width: 100%;
           z-index: 2;
      }
@@ -15,8 +21,9 @@
           padding: 14px;
      }
 
-     .navbar-toggler {
-          color: #fff; 
+     .navbar-toggler-icon {
+          /* background: white; */
+          color:white !important;
      }
 
      .navbar-toggler:focus {
@@ -32,12 +39,57 @@
           line-height: 60px;
      }
 
+     .perfect-2 {
+          font-size: 44px;
+      }
+
      .product-types{
           flex-direction: column;
-          margin-top: -65px;
+          margin-top: -60px;
      }
      
      .web-design{
           padding: 15px;
      }
+
+     .remove{
+          display: none;
+     }
+}
+
+@media (max-width: 576.98px){
+.perfect {
+    font-size: 26px;
+    line-height: 43px;
+}
+
+.subscribe {
+     font-size: 19px;
+ }
+
+ .btn-primary {
+     padding: 10px 24px;
+ }
+
+ .Mostpopular-ship .card {
+     padding: 24px;
+     border-radius: 20px;
+ }
+
+ .accordion-button {
+     font-size: 21px;
+     padding: 20px 24px;
+ }
+
+ .btn-primary {
+     max-width: 276px;
+ }
+
+ .Mostpopular-ship .quarterly .btn-transparent {
+     padding: 20px 22px;
+ }
+
+ .product-design {
+     margin: 68px 30px;
+ }
 }
