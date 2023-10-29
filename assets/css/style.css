@@ -43,6 +43,10 @@ ul {
   font-size: 18px;
 }
 
+.perfect-color{
+  color: #49545a;
+}
+
 .get-you {
   color: #13d9df;
 }
@@ -86,8 +90,45 @@ ul {
   color: #fff;
 }
 
-.navbar-toggler {
-  color: #000;
+.navbar .navbar-toggler {
+  box-shadow: none !important;
+  border: 0;
+  padding: 0px 0px 0px 8px;
+}
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:active,
+.navbar .navbar-toggler .navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  width: 30px;
+  height: 3px;
+  background: #3e5997e6;
+  display: block;
+  background-image: none;
+  transition: 0.5s ease-in-out;
+}
+.navbar .navbar-toggler .top-bar {
+  margin-top: 5px;
+  transform: rotate(135deg);
+  background-color: #fff;
+}
+.navbar .navbar-toggler .bottom-bar {
+  margin-top: -2px;
+  transform: rotate(-135deg);
+  background-color: #fff;
+}
+.navbar .navbar-toggler.collapsed .top-bar {
+  margin-top: -1px;
+  transform: rotate(0deg);
+  background-color: #fff;
+}
+.navbar .navbar-toggler.collapsed .bottom-bar {
+  margin-top: 6px;
+  transform: rotate(0deg);
+  background-color: #fff;
 }
 
 .product-design {
@@ -101,7 +142,7 @@ ul {
 .product-types {
   min-height: 250px;
   position: relative;
-  margin-top: -100px;
+  margin-top: -60px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 20px 60px rgba(116, 133, 143, 0.2);
@@ -138,6 +179,7 @@ ul {
 .explore .card .card-text {
   font-size: 14px;
   margin-bottom: 12px;
+  color: #49545a;
 }
 
 .will-get {
@@ -159,6 +201,7 @@ ul {
 
 .will-get .card .card-text {
   font-size: 18px;
+  color: #49545a;
 }
 
 .get-product {
@@ -235,6 +278,17 @@ ul {
   max-width: 600px;
   width: 100%;
   margin-top: 24px;
+}
+
+.Mostpopular-ship .monthly .btn-primary:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid rgb(0, 0, 255);
+}
+
+.Mostpopular-ship .quarterly .btn-transparent:hover {
+  background: white;
+  color: black;
 }
 
 .Mostpopular-ship .quarterly .btn-transparent {
@@ -314,14 +368,30 @@ ul {
   background-color: #000;
 }
 
-.footer .membership-bottom{
-     height: 1px;
-     width: 100vw;
-     background-color: rgba(255,255,255,.2);
+.footer .membership-bottom {
+  height: 1px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.sub-text-footer{
-     font-size: 14px;
-     color: #49545a;
-     padding-top: 16px;
+.footer .fotbar {
+  padding: 30px 0;
+}
+
+.sub-text-footer {
+  font-size: 14px;
+  color: #49545a;
+  padding-top: 16px;
+}
+
+.fot-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 1px solid transparent;
+}
+
+.fot-link:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
 }
