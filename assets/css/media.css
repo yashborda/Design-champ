@@ -7,16 +7,20 @@
     position: absolute;
     top: 70px;
     left: 0;
-    background-color: #212bf3;
+    background-color: #fff;
     width: 100%;
     z-index: 2;
   }
 
   .nav-link {
-    color: #fff !important;
+    color: #08358A !important;
     opacity: 1;
     text-align: center;
     padding: 14px;
+  }
+
+  .nav-link:hover {
+    border-bottom: 1px solid #08358A;
   }
 
   .navbar-toggler-icon {
@@ -55,20 +59,29 @@
   .remove {
     display: none;
   }
-}
 
-@media (max-width: 576.98px) {
-  .perfect {
-    font-size: 26px;
-    line-height: 43px;
+  .footer .fotbar {
+    padding: 30px;
+    flex-direction: column;
   }
 
   .footer-bar {
     flex-direction: column;
   }
+}
+
+@media (max-width: 576.98px) {
+  .navbar-collapse {
+    left: 29px;
+    width: 90%;
+  }
+
+  .perfect {
+    font-size: 26px;
+    line-height: 43px;
+  }
 
   .footer .fotbar {
-    flex-direction: column;
     padding: 30px;
   }
 
@@ -100,5 +113,27 @@
 
   .product-design {
     margin: 68px 30px;
+  }
+
+  .product-types {
+    margin-left: 105px;
+    max-width: 312px;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar-collapse {
+    left: 19px;
+    width: 90%;
+  }
+
+  .product-types {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 320px){
+  .product-types {
+    margin-left: 3px;
   }
 }
