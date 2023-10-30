@@ -116,7 +116,6 @@
   }
 
   .product-types {
-    margin-left: 105px;
     max-width: 312px;
   }
 }
@@ -125,15 +124,5 @@
   .navbar-collapse {
     left: 19px;
     width: 90%;
-  }
-
-  .product-types {
-    margin-left: 16px;
-  }
-}
-
-@media (max-width: 320px){
-  .product-types {
-    margin-left: 3px;
   }
 }
